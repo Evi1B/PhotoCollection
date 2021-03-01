@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A443A425ED0B35008C2B45 /* DetailPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A443A325ED0B35008C2B45 /* DetailPhotoVC.swift */; };
 		13F88E6C25E82D600054F702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88E6B25E82D600054F702 /* AppDelegate.swift */; };
 		13F88E7325E82D600054F702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F88E7125E82D600054F702 /* Main.storyboard */; };
 		13F88E7525E82D630054F702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F88E7425E82D630054F702 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13A443A325ED0B35008C2B45 /* DetailPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotoVC.swift; sourceTree = "<group>"; };
 		13F88E6825E82D600054F702 /* photosCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photosCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F88E6B25E82D600054F702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F88E7225E82D600054F702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A443A725ED0CEF008C2B45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13F88E8325E842490054F702 /* PhotoCollectionVC.swift */,
+				13A443A325ED0B35008C2B45 /* DetailPhotoVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		13A443A925ED0CFF008C2B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13F88E8825E845F20054F702 /* PhotoCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13A443AB25ED0D09008C2B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13F88E7125E82D600054F702 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13A443AC25ED0D25008C2B45 /* Supports File */ = {
+			isa = PBXGroup;
+			children = (
+				13F88E7425E82D630054F702 /* Assets.xcassets */,
+				13F88E6B25E82D600054F702 /* AppDelegate.swift */,
+				13F88E7625E82D630054F702 /* LaunchScreen.storyboard */,
+				13F88E7925E82D630054F702 /* Info.plist */,
+			);
+			path = "Supports File";
+			sourceTree = "<group>";
+		};
 		13F88E5F25E82D600054F702 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +94,10 @@
 		13F88E6A25E82D600054F702 /* photosCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				13F88E6B25E82D600054F702 /* AppDelegate.swift */,
-				13F88E8325E842490054F702 /* PhotoCollectionVC.swift */,
-				13F88E8825E845F20054F702 /* PhotoCell.swift */,
-				13F88E7125E82D600054F702 /* Main.storyboard */,
-				13F88E7425E82D630054F702 /* Assets.xcassets */,
-				13F88E7625E82D630054F702 /* LaunchScreen.storyboard */,
-				13F88E7925E82D630054F702 /* Info.plist */,
+				13A443A925ED0CFF008C2B45 /* Model */,
+				13A443A725ED0CEF008C2B45 /* Controllers */,
+				13A443AB25ED0D09008C2B45 /* View */,
+				13A443AC25ED0D25008C2B45 /* Supports File */,
 			);
 			path = photosCollectionView;
 			sourceTree = "<group>";
@@ -137,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A443A425ED0B35008C2B45 /* DetailPhotoVC.swift in Sources */,
 				13F88E8425E842490054F702 /* PhotoCollectionVC.swift in Sources */,
 				13F88E8925E845F20054F702 /* PhotoCell.swift in Sources */,
 				13F88E6C25E82D600054F702 /* AppDelegate.swift in Sources */,
@@ -288,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQP59DKBXV;
-				INFOPLIST_FILE = photosCollectionView/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "/Users/evilb/Desktop/SkillUp/Home Work/photosCollectionView/photosCollectionView/Supports File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQP59DKBXV;
-				INFOPLIST_FILE = photosCollectionView/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "/Users/evilb/Desktop/SkillUp/Home Work/photosCollectionView/photosCollectionView/Supports File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
