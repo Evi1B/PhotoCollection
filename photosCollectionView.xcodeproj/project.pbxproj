@@ -43,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				13F88E8325E842490054F702 /* PhotoCollectionVC.swift */,
-				13A443A325ED0B35008C2B45 /* DetailPhotoVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -59,7 +58,7 @@
 		13A443AB25ED0D09008C2B45 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				13F88E7125E82D600054F702 /* Main.storyboard */,
+				13A443A325ED0B35008C2B45 /* DetailPhotoVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -67,6 +66,7 @@
 		13A443AC25ED0D25008C2B45 /* Supports File */ = {
 			isa = PBXGroup;
 			children = (
+				13F88E7125E82D600054F702 /* Main.storyboard */,
 				13F88E7425E82D630054F702 /* Assets.xcassets */,
 				13F88E6B25E82D600054F702 /* AppDelegate.swift */,
 				13F88E7625E82D630054F702 /* LaunchScreen.storyboard */,
